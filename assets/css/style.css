@@ -1,0 +1,74 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+:root {
+    --fondo-pagina-web: #1e242e;
+    
+    
+}
+
+body {
+    background-color: var(--fondo-pagina-web);
+}
+
+/* CLASES NAVBAR */
+.navbar {
+    position: fixed;
+    /* background-image: linear-gradient(to left, #091c29, #0b0929);
+    border-bottom: 1px solid var(--gris-oscuro);*/
+align-items: center;
+
+}
+
+.etiqueta-a {
+    color: #ffffff;
+   
+}
+
+
+
+.logo {
+    
+    width: 65px;
+    border-radius: 50px;
+
+    
+}
+
+.carousel {
+    display: flex;
+    height: 590px;
+    
+}
+
+.presentacion {
+    background-color: rgba(13, 23, 51, 0.5);
+    padding-bottom: 300px;
+    
+}
+.texto-presentacion-carrusel {
+color: #78ffb9;
+
+
+}
+
+
+
+/*Hovers */
+.navbar:hover {
+    transition-duration: 500ms;
+    background-color:rgba(13, 23, 51, 0.3); 
+
+}
+.etiqueta-a:hover {
+    transition-duration: 500ms;
+    color: #78ffb9;
+    background-color:rgba(13, 23, 51, 0.4);
+
+}
+
