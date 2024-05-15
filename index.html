@@ -22,8 +22,9 @@
           <!--NAV-->
           <nav class="navbar col-12 navbar-expand-lg ">
             <div class="color-texto-navar container-fluid">
-              <img class = "logo ms-2 " src="./assets/img/logo.jpg" alt="">
-              <!--<a class="linkPortafolio navbar-brand text-light " href="#">Portafolio</a>
+              <!--<img class = "logo ms-2 " src="./assets/img/logo.jpg" alt="">-->
+              
+                <!--<a class="linkPortafolio navbar-brand text-light " href="#">Portafolio</a>
               -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,16 +33,16 @@
                 <ul class="navbar-nav m-1 mx-auto ">
                   
                   <li class="nav-item ">
-                    <a class="etiqueta-a nav-link p-2  " aria-current="page" href="#">Inicio</a>
+                    <a class="etiqueta-a nav-link px-3  " aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="etiqueta-a nav-link p-2 p" aria-current="page" href="#">Inicio</a>
+                    <a class="etiqueta-a nav-link px-3 " aria-current="page" href="#">Proyectos</a>
                   </li>
                   <li class="nav-item  ">
-                    <a class="etiqueta-a nav-link p-2 " href="#">Proyectos</a>
+                    <a class="etiqueta-a nav-link px-3 " href="#">Contactos</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="etiqueta-a nav-link p-2 " href="#">Conctacto</a>
+                    <a class="etiqueta-a nav-link px-3 " href="#">Otros</a>
                   </li>
                   
                 </ul>
@@ -51,30 +52,65 @@
         <!--FIN DEL NAV -->
         
         <!-- IMAGEN CARRUSEL --> 
-          <img src="./assets/img/example.jpg" class="d-block w-100" alt="...">
+          <img  src="./assets/img/example.jpg" class="img-carrusel d-block w-100" alt="...">
         <!--FIN IMAGEN CARRUSEL-->
-        
+      </div>
         <!-- TEXTO PRENSENTACION CARRUSEL -->
-          <div class="col-12  bg-primary carousel-caption d-none d-md-block">
-            <h1 >Bienvenido a mi portafolio</h1>
-            <p>¡Hola me llamo Brandon Casas!</p>
-          </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h6>Diseñador web </h6>
+          <h1>Brandon Casas</h1>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
-        <!--FIN TEXTO CARUSEL PRESENTAION-->
-        
-        <!--
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>-->
       </div>
     </div>
 
     <!--FIN CARRUSEL-->
     
+    <!--Sessiones -->
+    
+    
+    <div class="proyecto_padre col-11 mx-auto my-5 ">
+      <div>
+        <h2 class="titulo-proyecto p-2 text-center">Mis proyectos</h2>
+        <p class = "subtitulo-proyecto p-2 text-center text-light">En esta seccion encontraras los proyectos que he realizado durante mis años de experiencia aprendiendo programacion web. </p>
+      </div>
 
+      <div class = "proyectos mx-3">
+        <div class=" card m-2 " style="width: 18rem;">
+          <img src="./assets/img/example.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="card m-2  " style="width: 18rem;">
+          <img src="./assets/img/example.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          
+        </div>
+          
+        <div class="card m-2  " style="width: 18rem;">
+          <img src="./assets/img/example.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        
+        
+      </div>
+      <div class = "boton-proyecto p-1  ">
+        <button class = "boton-diseno my-2 py-1 col-3">Ver aquí</button>
+        <button class = "boton-diseno my-2 py-1 col-3">Ver aquí</button>
+        <button class = "boton-diseno my-2 py-1 col-3">Ver aquí</button>
+        
+      </div>
+     
+     
+    </div>
+  </div>
     <!--JS BOOSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

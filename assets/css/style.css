@@ -7,9 +7,8 @@
 }
 
 :root {
-    --fondo-pagina-web: #1e242e;
-    
-    
+    --fondo-pagina-web: #02070d;
+    --color-blanco: #ffffff;
 }
 
 body {
@@ -17,58 +16,137 @@ body {
 }
 
 /* CLASES NAVBAR */
+
 .navbar {
-    position: fixed;
+    position: absolute;
     /* background-image: linear-gradient(to left, #091c29, #0b0929);
     border-bottom: 1px solid var(--gris-oscuro);*/
-align-items: center;
+    align-items: center;
 
 }
 
 .etiqueta-a {
-    color: #ffffff;
-   
+    color: var(--color-blanco);
+
 }
 
-
-
 .logo {
-    
     width: 65px;
     border-radius: 50px;
-
     
 }
 
 .carousel {
     display: flex;
-    height: 590px;
-    
+    height: 620px;
+   
 }
+
 
 .presentacion {
     background-color: rgba(13, 23, 51, 0.5);
     padding-bottom: 300px;
-    
+
 }
+
 .texto-presentacion-carrusel {
 color: #78ffb9;
 
-
 }
-
-
 
 /*Hovers */
 .navbar:hover {
     transition-duration: 500ms;
-    background-color:rgba(13, 23, 51, 0.3); 
+    background-color:rgba(32, 48, 94, 0.1); 
 
 }
 .etiqueta-a:hover {
     transition-duration: 500ms;
     color: #78ffb9;
-    background-color:rgba(13, 23, 51, 0.4);
+    background-color:rgba(32, 48, 94, 0.3); 
+
+}
+
+/* SECCION PROYECTO */
+
+.proyecto_padre {
+    background-color: #040c16;
+    border-radius: 10px;
+    border: 1px solid #0d233c;
+}
+
+.proyectos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    gap: 10px;
+}
+
+.titulo-proyecto {
+    
+    background-color: rgba(32, 48, 94, 0.4); 
+    color: #ffffff;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    animation-name: animacion-Cambio-Color;
+    animation-duration: 3s; 
+    animation-timing-function:ease-in-out; 
+    animation-iteration-count: infinite; 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+
+}
+.subtitulo-proyecto {
+    position:relative;
+    bottom: 8px;
+    background-color: rgba(32, 48, 94, 0.2); 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+}
+
+.boton-proyecto {
+    background-color: rgba(32, 48, 94, 0.09);
+    border-top: 1px solid rgba(32, 48, 94, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton-diseno {
+    color: #ffffff;
+    background-color: rgba(32, 48, 94, 0.4);
+    border: 1px solid rgba(32, 48, 94, 2);
+
+}
+/* Hover */
+
+.card {
+    transition: transform 500ms ease;
+    
+}
+.card:hover {
+    transform: translateY(-5px);
+
+}
+
+.boton-diseno:hover {
+    transition-duration: 500ms;
+    background-color: rgba(32, 48, 94, 0.7); 
+    color: #78ffb9;
+}
+
+@keyframes animacion-Cambio-Color {
+    0% {
+        color: #ffffff;
+        
+    }
+    50% {
+        color: #8fffab;
+        text-shadow: 0px 0px 10px #8fffab;
+    }
+    100% {
+        color: #ffffff;
+    }
 
 }
 
