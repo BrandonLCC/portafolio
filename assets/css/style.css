@@ -68,6 +68,10 @@ color: #78ffb9;
 }
 
 /* SECCION PROYECTO */
+.logo-proyecto {
+    position:absolute;
+    
+}
 
 .proyecto_padre {
     background-color: #040c16;
