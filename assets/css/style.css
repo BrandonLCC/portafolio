@@ -147,6 +147,7 @@ body {
     text-shadow: 0px 0px 20px #1cb7ff;
 
 }
+
 /* Hover */
 
 .card {
@@ -195,6 +196,23 @@ body {
 
 }
 
+.icono-conctacto {
+    display: flex;
+    align-items: center;
+    background-color: #01090f;
+
+}
+
+.conctato-redes-padre {
+    border-radius: 10px;
+    
+}
+.icono-conctacto:hover {
+    text-shadow: 0px 0px 5px #747dff;
+    cursor: pointer;
+    background-color: #020e18; 
+}
+
 .titulo-conctacto {
     background-color: rgba(32, 48, 94, 0.2); 
     border-top-left-radius: 10px;
@@ -231,10 +249,8 @@ form {
     border-radius: 10px;
     margin-bottom: 20px;
     bottom: 7px;
-    text-shadow: 0px 0px 5px #74ffd5;
-   
+    text-shadow: 0px 0px 5px #74ffd5; 
 }
-
 label {
     
     background-color: #020e18; 
@@ -264,3 +280,18 @@ label {
 
 }
 
+/* Skills */
+
+.habilidades-padre {
+    background-color: #040c16;
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #0d233c;
+
+}
+
+.titulo-habilidades {
+    background-color: rgba(32, 48, 94, 0.5); 
+
+
+}
