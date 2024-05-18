@@ -29,6 +29,11 @@ body {
     align-items: center;
 
 }
+.iconos-nav {
+    position:absolute;
+    
+    
+}
 
 .etiqueta-a {
     color: var(--color-blanco);
@@ -227,12 +232,12 @@ form {
     margin-bottom: 20px;
     bottom: 7px;
     text-shadow: 0px 0px 5px #74ffd5;
-
+   
 }
 
 label {
     
-    background-color: #021320; 
+    background-color: #020e18; 
     border-radius: 5px;
 }
 

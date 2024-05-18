@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,16 +33,20 @@
                 <ul class="navbar-nav m-1 mx-auto ">
                   
                   <li class="nav-item ">
-                    <a class="etiqueta-a nav-link px-3  " aria-current="page" href="#">Inicio</a>
+                    <img class = "iconos-nav ms-3 my-1" src="./assets/img/proyecto.png" alt="">
+                    <a class="etiqueta-a nav-link px-5" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="etiqueta-a nav-link px-3 " aria-current="page" href="#">Proyectos</a>
+                    <img class = "iconos-nav ms-3 my-1" src="./assets/img/proyecto.png" alt="">
+                    <a class="etiqueta-a nav-link px-5" aria-current="page" href="#">Proyectos</a>
                   </li>
                   <li class="nav-item  ">
-                    <a class="etiqueta-a nav-link px-3 " href="#">Contactos</a>
+                    <img class = "iconos-nav ms-3 my-1 " src="./assets/img/conctacto.png" alt="">
+                    <a class="etiqueta-a nav-link px-5" href="#">Contactos</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="etiqueta-a nav-link px-3 " href="#">Otros</a>
+                    <img class = "iconos-nav ms-3 my-1" src="./assets/img/proyecto.png" alt="">
+                    <a class="etiqueta-a nav-link px-5" href="#">Otros</a>
                   </li>
                   
                 </ul>
@@ -72,7 +76,7 @@
     
     <div class="proyecto_padre col-11 mx-auto my-5 ">
           <div>
-            <img class = "logo-proyecto m-2" src="./assets/img/icons8-github-30.png" alt="">
+            <img class = "logo-proyecto m-2" src="./assets/img/proyecto.png" alt="">
             <h2 class="titulo-proyecto p-2 text-center">Mis proyectos</h2>
             <p class = "subtitulo-proyecto p-2 text-center text-light">En esta seccion encontraras los proyectos que he realizado durante mis años de experiencia aprendiendo programacion web. </p>
           </div>
@@ -125,11 +129,18 @@
 <div>
   <div class  = "seccion-contactame py-4 col-11 mx-auto my-5 d-flex flex-wrap">
       <div class = "seccion-contactame-left col-10 col-sm-9  col-md-5 mx-auto my-4">
-        <h2 class = "titulo-conctacto p-3 text-light text-center">Mis aplicaciones de conctacto</h2>
+        <h2 class = "titulo-conctacto p-3 text-light text-center">Mis redes y Conctacto</h2>
           <ul class = "text-light">
-            <li>GITHUB</li>
-            <li>WASAPP</li>
+            <!--Quiero que sean como botones -->
+            <div class = "col-12 ">
+              <li>GITHUB</li>
+              <img src="./assets/img/icons8-github-30.png" alt="">
+            </div>
+
+             <li>WASAPP</li>
+            <img src="./assets/img/whatsapp.png" alt="">
             <li>GMAIL</li>
+            <img src="./assets/img/instagram.png" alt="">
             <li>INSTAGRAM</li>
           </ul>
       </div>
@@ -139,21 +150,21 @@
         <p class = "subtitulo-formulario p-2 text-center text-light">Puedes escribirme directamente  por correo electronico en este formulario para mantenernos en conctacto</p>
         
         <!--Formulario-->
-          <form class = "text-light m-2 mx-3" action="">
+          <form class = "text-light m-2 mx-3 " action="">
             <!-- Nombre usuario -->
-            <div class="mb-3 px-5 " id = "divNombre">
-                <label class = "my-2 col-12 text-center" sfor="NombreUsuario">Nombre</label>
+            <div class="mb-3 px-5  " id = "divNombre">
+                <label class = "my-2 col-12 p-1 text-center " sfor="NombreUsuario">Nombre</label>
                 <input  type="text" class="form-control " id = "nombre">
             </div>
               <!-- Gmail usuario -->
             <div class="mb-3 px-5">
-                <label for="exampleFormControlInput1" class="form-label col-12  text-center">Correo electrónico</label>
+                <label for="exampleFormControlInput1" class="form-label col-12 p-1  text-center">Correo electrónico</label>
                 <input type="email" class="form-control"  id = "correo" placeholder="nombre@gmail.com">
             </div>
 
             <!-- Text-area usuario -->
             <div class="mb-3 px-5">
-                <label for="exampleFormControlTextarea1" class="form-label col-12 text-center">Mensaje</label>
+                <label for="exampleFormControlTextarea1" class="form-label col-12 p-1 text-center">Mensaje</label>
                 <textarea class="form-control" id="mensaje" placeholder="Escribeme..." rows=""></textarea>
             </div> 
 
