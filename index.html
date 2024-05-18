@@ -138,27 +138,32 @@
  
     <div class = "seccion-contactame-right col-5  mx-auto">
       <h2 class = "titulo-formulario p-3 text-light text-center">Enviame un mensaje </h2>
-        <!--Formulario-->
-        <form class = "text-light" action="">
+      <p class = "subtitulo-formulario p-2 text-center text-light">Puedes escribirme por correo electronico para mantenernos en conctacto</p>
+      
+      <!--Formulario-->
+        <form class = "text-light mx-5 " action="">
           <!-- Nombre usuario -->
           <div class="mb-3 my-3 px-5 " id = "divNombre">
-              <label class = "my-2" sfor="NombreUsuario">Nombre</label>
+              <label class = "my-2 col-12" sfor="NombreUsuario">Nombre</label>
               <input  type="text" class="form-control " id = "nombre">
           </div>
             <!-- Gmail usuario -->
           <div class="mb-3 px-5">
-              <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+              <label for="exampleFormControlInput1" class="form-label col-12 ">Correo electrónico</label>
               <input type="email" class="form-control"  id = "correo" placeholder="nombre@gmail.com">
           
           </div>
           <!-- Text-area usuario -->
           <div class="mb-3 px-5">
-              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <label for="exampleFormControlTextarea1" class="form-label col-12">Mensaje</label>
               <textarea class="form-control" id="mensaje" rows=""></textarea>
           
           </div> 
           <!--Para enviar los datos del formulario -->
+          
           <div class = "botonEnviar  ">
+           
+           
               <input class = "boton-diseno px-5 my-2 py-1" type="submit" value="Enviar" id = "enviar"> <!--Luego completar la linea de codigo-->
           </div>
       
