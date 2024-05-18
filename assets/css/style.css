@@ -148,9 +148,9 @@ body {
     transition: transform 500ms ease;
 
 }
-.card:hover, form:hover {
-    transform: translateY(-5px);
 
+.card:hover    {
+    transform: translateY(-5px);
 
 }
 
@@ -208,9 +208,13 @@ body {
 /*formulario*/
 
 .seccion-contactame  {
+    position: relative;
+    display: flex;
+    
     background-color: #040e1a;
     border-radius: 10px;
     border: 1px solid #0d233c;
+    
 }
 
 .seccion-contactame-right {
@@ -218,20 +222,20 @@ body {
     border-radius: 10px;
     border: 1px solid #0d233c;
 
-
 }
+
 form {
     transition: transform 500ms ease;
     background-color: #01090f;
     border-radius: 10px;
     margin-bottom: 20px;
+
 }
 
 label {
     
 
 }
-
 
 .titulo-formulario {
     background-color: rgba(32, 48, 94, 0.5); 
