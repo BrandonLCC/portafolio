@@ -120,9 +120,6 @@ body {
 
 }
 
-.card-img-top {
-
-}
 
 .card-text {
     background-color: #021320; 
@@ -130,7 +127,6 @@ body {
     text-align: center;
 
 }
-
 
 
 .boton-proyecto {
@@ -142,8 +138,8 @@ body {
 .boton-diseno {
     color: #ffffff;
     background-color: #021320; 
-    border: 1px solid rgb(173, 250, 199); 
-    text-shadow: 0px 0px 20px #1cff55;
+    border: 1px solid rgb(163, 252, 255); 
+    text-shadow: 0px 0px 20px #1cb7ff;
 
 }
 /* Hover */
@@ -160,8 +156,11 @@ body {
 
 .boton-diseno:hover {
     transition-duration: 500ms;
-    background-color: #051b2c; 
+    background-color: #0a2133; 
     color: #c3ffcb;
+    border-radius: 5px;
+    border: 1px solid #78ffb9; 
+    text-shadow: 0px 0px 20px #78ffb9;
 
 }
 
@@ -191,6 +190,8 @@ body {
 }
 
 .titulo-conctacto {
+    background-color: rgba(32, 48, 94, 0.2); 
+
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     animation-name: animacion-Cambio-Color;
@@ -221,6 +222,7 @@ body {
 
 
 .titulo-formulario {
+    background-color: rgba(32, 48, 94, 0.2); 
     border-bottom: 1px solid rgba(32, 48, 94, 0.5);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -229,8 +231,12 @@ body {
 
 
 .botonEnviar {
-    background-color: rgba(32, 71, 94, 0.2); 
+    background-color: #01090f;
+    
     border-top: 1px solid rgba(32, 71, 94, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
     display: flex;
     justify-content: center;
 }
