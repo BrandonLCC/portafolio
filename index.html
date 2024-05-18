@@ -54,12 +54,13 @@
         <!-- IMAGEN CARRUSEL --> 
           <img  src="./assets/img/example.jpg" class="img-carrusel d-block w-100" alt="...">
         <!--FIN IMAGEN CARRUSEL-->
+      
       </div>
         <!-- TEXTO PRENSENTACION CARRUSEL -->
-        <div class="carousel-caption d-none d-md-block">
-          <h6>Diseñador web </h6>
-          <h1>Brandon Casas</h1>
-          <p>Some representative placeholder content for the first slide.</p>
+        <div class="texto-presentacion-carrusel col-9 my-5 d-md-block">
+          <h1 class = "m-auto  col-6 text-center text-light">Hola yo soy  Brandon Casas ¡Bienvenido a mi portafolio web!</h1>
+          <p class = " m-auto  col-6 text-center text-light">soy un ingeniero informatico apacionado por
+            las tecnologias de la informatica</p>
         </div>
       </div>
     </div>
@@ -80,14 +81,22 @@
         <div class=" card m-2 " style="width: 18rem;">
           <img src="./assets/img/example.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class = "boton-proyecto p-1 ">
+              <button class = "boton-diseno my-2 py-1 col-8">Ver aquí</button>
+            </div>
+
+          
           </div>
         </div>
 
         <div class="card m-2  " style="width: 18rem;  ">
           <img src="./assets/img/example.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class = "boton-proyecto p-1 ">
+              <button class = "boton-diseno my-2 py-1 col-8">Ver aquí</button>
+            </div>
           </div>
           
         </div>
@@ -95,21 +104,82 @@
         <div class="card m-2  " style="width: 18rem;  ">
           <img src="./assets/img/example.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class = "boton-proyecto p-1 ">
+                <button class = "boton-diseno my-2 py-1 col-8">Ver aquí</button>
+              </div>
+
           </div>
         </div>
 
       </div>
-      <div class = "boton-proyecto p-1  ">
-        <button class = "boton-diseno my-2 py-1 col-3">Ver aquí</button>
-        <button class = "boton-diseno my-2 py-1 col-3">Ver aquí</button>
-        <button class = "boton-diseno my-2 py-1 col-3">Ver aquí</button>
-        
-      </div>
-     
-     
     </div>
   </div>
+
+  
+  <hr class = "col-11 mx-auto ">
+
+  <div>
+    <div>
+      <h2 class = "text-center text-light">Seccion de conctacto</h2>
+    </div>
+  </div>
+<!--Seccion de conctacto-->
+  <div class  = "seccion-contactame py-4 col-11 mx-auto my-5 d-flex flex-wrap  ">
+    <div class = "seccion-contactame-left col-5 mx-auto">
+      <h2 class = "titulo-conctacto p-3 text-light text-center">Me puedes conctactar por</h2>
+        <ul class = "text-light">
+          <li>GITHUB</li>
+          <li>WASAPP</li>
+          <li>GMAIL</li>
+          <li>INSTAGRAM</li>
+        </ul>
+    </div>
+ 
+    <div class = "seccion-contactame-right col-5  mx-auto">
+      <h2 class = "titulo-formulario p-3 text-light text-center">Enviame un mensaje </h2>
+        <!--Formulario-->
+        <form class = "text-light" action="">
+          <!-- Nombre usuario -->
+          <div class="mb-3 my-3 px-5 " id = "divNombre">
+              <label class = "my-2" sfor="NombreUsuario">Nombre</label>
+              <input  type="text" class="form-control " id = "nombre">
+          </div>
+            <!-- Gmail usuario -->
+          <div class="mb-3 px-5">
+              <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control"  id = "correo" placeholder="nombre@gmail.com">
+          
+          </div>
+          <!-- Text-area usuario -->
+          <div class="mb-3 px-5">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows=""></textarea>
+          
+          </div> 
+          <!--Para enviar los datos del formulario -->
+          <div class = "botonEnviar  ">
+              <input class = "boton-diseno px-5 my-2 py-1" type="submit" value="Enviar" id = "enviar"> <!--Luego completar la linea de codigo-->
+          </div>
+      
+        </form>
+        
+    </div>
+
+    
+  </div>
+
+
+  <!--Seccion de skills-->
+  <hr class = "col-11 mx-auto ">
+    <div class = "seccion-skills col-11 mx-auto">
+      <div>
+        <h2 class = "text-light">Mis habilidades</h2>
+      </div>
+    </div>  
+
+
+
     <!--JS BOOSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

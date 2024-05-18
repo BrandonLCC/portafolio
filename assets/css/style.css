@@ -7,20 +7,25 @@
 }
 
 :root {
-    --fondo-pagina-web: #02070d;
+    --fondo-pagina-web: #020911;
     --color-blanco: #ffffff;
+}
+
+
+hr {
+    border: 1px solid #0d233c;
+
 }
 
 body {
     background-color: var(--fondo-pagina-web);
+
 }
 
 /* CLASES NAVBAR */
 
 .navbar {
     position: absolute;
-    /* background-image: linear-gradient(to left, #091c29, #0b0929);
-    border-bottom: 1px solid var(--gris-oscuro);*/
     align-items: center;
 
 }
@@ -30,29 +35,26 @@ body {
 
 }
 
-.logo {
-    width: 65px;
-    border-radius: 50px;
-    
-}
-
 .carousel {
     display: flex;
     height: 620px;
-   
-}
 
+}
 
 .presentacion {
     background-color: rgba(13, 23, 51, 0.5);
-    padding-bottom: 300px;
 
 }
 
 .texto-presentacion-carrusel {
-color: #78ffb9;
+    position:absolute;
+    display: flex;
+    margin: 100px;
+    top: 50px;
 
 }
+
+
 
 /*Hovers */
 .navbar:hover {
@@ -67,6 +69,7 @@ color: #78ffb9;
 
 }
 
+
 /* SECCION PROYECTO */
 .logo-proyecto {
     position:absolute;
@@ -74,7 +77,7 @@ color: #78ffb9;
 }
 
 .proyecto_padre {
-    background-color: #040c16;
+    background-color: #040e1a;
     border-radius: 10px;
     border: 1px solid #0d233c;
 }
@@ -88,55 +91,78 @@ color: #78ffb9;
 }
 
 .titulo-proyecto {
-    
-    background-color: rgba(32, 48, 94, 0.4); 
-    color: #ffffff;
+    background-color: rgba(32, 48, 94, 0.5); 
+
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
     animation-name: animacion-Cambio-Color;
     animation-duration: 3s; 
     animation-timing-function:ease-in-out; 
     animation-iteration-count: infinite; 
-    border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+    border-bottom: 1px solid rgba(32, 48, 94, 0.9);
 
 }
+
+
 .subtitulo-proyecto {
     position:relative;
     bottom: 8px;
     background-color: rgba(32, 48, 94, 0.2); 
     border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+    text-shadow: 0px 0px 5px #747dff;
+
 }
 
+.card {
+    color:  var(--color-blanco);
+    background-color: #01090f;
+    text-shadow: 0px 0px 5px #74ffd5;
+
+}
+
+.card-img-top {
+
+}
+
+.card-text {
+    background-color: #021320; 
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
 .boton-proyecto {
-    background-color: rgba(32, 48, 94, 0.09);
-    border-top: 1px solid rgba(32, 48, 94, 0.5);
-    position: relative;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    border-radius: 10px;
 }
 
 .boton-diseno {
     color: #ffffff;
-    background-color: rgba(32, 48, 94, 0.4);
-    border: 1px solid rgba(32, 48, 94, 2);
+    background-color: #021320; 
+    border: 1px solid rgb(173, 250, 199); 
+    text-shadow: 0px 0px 20px #1cff55;
 
 }
 /* Hover */
 
 .card {
     transition: transform 500ms ease;
-    
+
 }
 .card:hover {
     transform: translateY(-5px);
+
 
 }
 
 .boton-diseno:hover {
     transition-duration: 500ms;
-    background-color: rgba(32, 48, 94, 0.7); 
-    color: #78ffb9;
+    background-color: #051b2c; 
+    color: #c3ffcb;
+
 }
 
 @keyframes animacion-Cambio-Color {
@@ -145,12 +171,67 @@ color: #78ffb9;
         
     }
     50% {
-        color: #8fffab;
         text-shadow: 0px 0px 10px #8fffab;
     }
     100% {
         color: #ffffff;
     }
 
+}
+
+
+/*Seccion concactame */
+
+.seccion-contactame-left {
+    background-color: #040c16;
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #0d233c;
+
+}
+
+.titulo-conctacto {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation-name: animacion-Cambio-Color;
+    animation-duration: 3s; 
+    animation-timing-function:ease-in-out; 
+    animation-iteration-count: infinite; 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+
+}
+
+
+
+/*formulario*/
+
+.seccion-contactame  {
+    background-color: #040e1a;
+    border-radius: 10px;
+    border: 1px solid #0d233c;
+}
+
+.seccion-contactame-right {
+    border-radius: 10px;
+    background-color: #040c16;
+    border: 1px solid #0d233c;
+
+
+}
+
+
+.titulo-formulario {
+    border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.botonEnviar {
+    background-color: rgba(32, 71, 94, 0.2); 
+    border-top: 1px solid rgba(32, 71, 94, 0.5);
+    display: flex;
+    justify-content: center;
 }
 
