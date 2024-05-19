@@ -353,16 +353,31 @@ label {
 
 .titulo-habilidades {
     background-color: rgba(32, 48, 94, 0.5); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 
 }
 
+.iconos-habilidades {
+    position: relative;
+    display: flex;
+    background-color: #010811;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.iconos-habilidades-diseno {
+    background-color: #021320; 
+    border-radius: 10px;
+    
+}
 
 /*Footer*/
 
 footer {
     background-color: #040e1a;
     border-top: 1px solid #0d233c;
-   
     
 }
