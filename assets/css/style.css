@@ -111,17 +111,18 @@ body {
 
 
 .titulo-presentacion {
-    background-image: radial-gradient(circle, #083041, #01050a);
+    background-image: radial-gradient(circle, #011a25, #010811);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-shadow: 0px 0px 5px #74ffd5;
+    border-top: 1px solid rgba(32, 48, 94, 0.4);
+    border-left: 1px solid rgba(32, 48, 94, 0.4);
+    border-right: 1px solid rgba(32, 48, 94, 0.4);
 
-    border: 1px solid ;
-    border: 1px solid rgba(32, 80, 94, 0.5);
+    
 }
 
 .texto-padre-presentacion {
-    background-color: rgba(32, 48, 94, 0.2); 
     border: 1px solid rgba(32, 48, 94, 0.4);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
