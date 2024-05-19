@@ -62,17 +62,26 @@ body {
     
 }
 
+.hijo-texto-carrusel-1 {
+    background-color:rgba(63, 167, 228, 0.03); 
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 100px;
+    color: #d1f7f7;
+    font-size: 49px;
+}
+
 .texto-presentacion-carrusel {
     position:relative;
     text-shadow: 0px 0px 20px #006e6e;
-    
+
 }
 
 .hijo-texto-carrusel {
     background-color:rgba(63, 167, 228, 0.02); 
     margin-top: 10px;
     border-radius: 5px;
-
+   
 }
 
 
@@ -159,7 +168,8 @@ body {
     background-color: #021320; 
     border: 1px solid rgb(163, 252, 255); 
     text-shadow: 0px 0px 20px #1cb7ff;
-
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Hover */
@@ -299,7 +309,7 @@ label {
 .botonEnviar {
     display: flex;
     justify-content: center;
-
+    margin-top: 20px;
 }
 
 /* Skills */
@@ -323,6 +333,7 @@ label {
 
 footer {
     background-color: #040e1a;
-    border: 1px solid #0d233c;
+    border-top: 1px solid #0d233c;
+   
     
 }
