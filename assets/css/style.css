@@ -28,6 +28,7 @@ body {
     position: absolute;
     align-items: center;
     z-index: 1;
+
 }
 
 .iconos-nav {
@@ -40,6 +41,18 @@ body {
 
 }
 
+.navbar-toggler {
+    background-color:rgba(63, 167, 228, 0.03); 
+    border: 1px solid #0d233c;
+
+}
+.navbar-toggler:focus {
+    background-color: rgba(32, 48, 94, 0.1); 
+    box-shadow: 0px 0px 5px #012058;
+}
+
+/* Carrusel */
+
 .carousel {
     position: relative;
 }
@@ -51,7 +64,6 @@ body {
 
 .texto-presentacion-carrusel {
     position:relative;
-    margin-bottom: auto;
     text-shadow: 0px 0px 20px #006e6e;
     
 }
@@ -304,4 +316,13 @@ label {
     background-color: rgba(32, 48, 94, 0.5); 
 
 
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #040e1a;
+    border: 1px solid #0d233c;
+    
 }
