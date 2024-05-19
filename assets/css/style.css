@@ -42,13 +42,11 @@ body {
 }
 
 .navbar-toggler {
-    background-color:rgba(63, 167, 228, 0.03); 
     border: 1px solid #0d233c;
 
 }
 .navbar-toggler:focus {
     background-color: rgba(32, 48, 94, 0.1); 
-    box-shadow: 0px 0px 5px #012058;
 }
 
 /* Carrusel */
@@ -59,12 +57,15 @@ body {
 
 .imagen-carrusel {
     filter: blur(20px);
-    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
 }
 
 .hijo-texto-carrusel-1 {
     background-color:rgba(63, 167, 228, 0.03); 
-    margin-top: 10px;
     border-radius: 5px;
     margin-top: 100px;
     color: #d1f7f7;
@@ -74,15 +75,13 @@ body {
 .texto-presentacion-carrusel {
     position:relative;
     text-shadow: 0px 0px 20px #006e6e;
-
+    top: 133px;
+    
 }
 
 .hijo-texto-carrusel {
-    
     background-color:rgba(63, 167, 228, 0.02); 
-    margin-top: 10px;
     border-radius: 5px;
-   
 }
 
 
@@ -90,7 +89,7 @@ body {
 /*Hovers */
 .navbar:hover {
     transition-duration: 500ms;
-    background-color:rgba(32, 48, 94, 0.1); 
+    background-color:rgba(32, 48, 94, 0.09); 
 
 }
 .etiqueta-a:hover {
