@@ -42,7 +42,6 @@ body {
 
 .carousel {
     position: relative;
-
 }
 
 .imagen-carrusel {
@@ -52,17 +51,16 @@ body {
 
 .texto-presentacion-carrusel {
     position:relative;
-    top: 80px;
-    background-color:rgba(32, 48, 94, 0.2); 
-    text-shadow: 0px 0px 20px #78ffb9;
+    margin-bottom: auto;
+    text-shadow: 0px 0px 20px #006e6e;
     
 }
 
 .hijo-texto-carrusel {
-    background-color:rgba(32, 48, 94, 0.2); 
-    margin: 10px;
-    border-radius: 10px;
-    color: #cffce5;
+    background-color:rgba(63, 167, 228, 0.02); 
+    margin-top: 10px;
+    border-radius: 5px;
+
 }
 
 
@@ -137,7 +135,6 @@ body {
     text-align: center;
 
 }
-
 
 .boton-proyecto {
     display: flex;
