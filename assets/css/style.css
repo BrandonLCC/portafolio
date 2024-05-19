@@ -13,7 +13,7 @@
 
 
 hr {
-    border: 1px solid #0d233c;
+    border: 1px solid #002147;
 
 }
 
@@ -78,6 +78,7 @@ body {
 }
 
 .hijo-texto-carrusel {
+    
     background-color:rgba(63, 167, 228, 0.02); 
     margin-top: 10px;
     border-radius: 5px;
@@ -99,7 +100,33 @@ body {
 
 }
 
+/* Presentacion */
+.padre-presentacion {
+    background-color: #040c16;
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+    
 
+}
+
+
+.titulo-presentacion {
+    background-image: radial-gradient(circle, #083041, #01050a);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 0px 0px 5px #74ffd5;
+
+    border: 1px solid ;
+    border: 1px solid rgba(32, 80, 94, 0.5);
+}
+
+.texto-padre-presentacion {
+    background-color: rgba(32, 48, 94, 0.2); 
+    border: 1px solid rgba(32, 48, 94, 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
 /* SECCION PROYECTO */
 .logo-proyecto {
     position:absolute;
