@@ -262,6 +262,7 @@ body {
 
 }
 
+
 .icono-conctacto:hover {
     cursor: pointer;
     background-color: #020e18; 
@@ -274,7 +275,7 @@ body {
 
 
 .titulo-conctacto {
-    background-color: rgba(32, 48, 94, 0.2); 
+    background-color: rgba(32, 48, 94, 0.5); 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     animation-name: animacion-Cambio-Color;
