@@ -256,17 +256,28 @@ body {
 
 .icono-conctacto {
     display: flex;
+    background-color: #020e18; 
+
     align-items: center;
     text-shadow: 0px 0px 5px #74ffd5; 
 
 }
 
+.fondo-icono-redes {
+    background-color: #041420; 
+   
+}
+
 
 .icono-conctacto:hover {
     cursor: pointer;
-    background-color: #020e18; 
     transition: transform 500ms ease;
     transform: translateY(-5px);
+
+}
+
+.fondo-icono-redes:hover {
+    background-color: #061b2c; 
 
 }
 
@@ -358,20 +369,40 @@ label {
 
 }
 
+.diseno-div-iconos {
+    background-color: #01090f;
+    border-radius: 10px;
+
+}
+
 .iconos-habilidades {
     position: relative;
     display: flex;
-    background-color: #010811;
-    margin: auto;
     border-radius: 10px;
-
+    margin: auto;
 }
 
 .iconos-habilidades-diseno {
     background-color: #021320; 
     border-radius: 10px;
-    
 }
+
+.text-ico-1 ,.text-ico-3 {
+    text-shadow: 0px 0px 8px #f9fd02;
+}
+
+.text-ico-2,.text-ico-5 {
+    text-shadow: 0px 0px 8px #24ffff;
+}
+
+.text-ico-4 {
+    text-shadow: 0px 0px 8px #24ff41;
+}
+
+.text-ico-6 {
+    text-shadow: 0px 0px 8px #8a24ff;
+}
+
 
 /*Footer*/
 
