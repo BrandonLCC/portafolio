@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; 
+    min-height: 120vh; 
 }
 
 .hijo-texto-carrusel-1 {
@@ -110,14 +110,17 @@ body {
 
 
 .titulo-presentacion {
-    background-image: radial-gradient(circle, #042533, #010811);
+    background-color: rgba(32, 48, 94, 0.5); 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    text-shadow: 0px 0px 5px #74ffd5;
     border-top: 1px solid rgba(32, 48, 94, 0.4);
     border-left: 1px solid rgba(32, 48, 94, 0.4);
     border-right: 1px solid rgba(32, 48, 94, 0.4);
-
+    animation-name: animacion-Cambio-Color;
+    animation-duration: 3s; 
+    animation-timing-function:ease-in-out; 
+    animation-iteration-count: infinite; 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.9);
     
 }
 
@@ -130,6 +133,7 @@ body {
 /* SECCION PROYECTO */
 .logo-proyecto {
     position:absolute;
+    margin-top: 15px;
     
 }
 
@@ -265,7 +269,6 @@ body {
 
 .fondo-icono-redes {
     background-color: #041420; 
-   
 }
 
 
@@ -323,9 +326,9 @@ form {
     text-shadow: 0px 0px 5px #74ffd5; 
 }
 label {
-    
     background-color: #020e18; 
     border-radius: 5px;
+
 }
 
 .titulo-formulario {
@@ -333,6 +336,11 @@ label {
     border-bottom: 1px solid rgba(32, 48, 94, 0.5);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    animation-name: animacion-Cambio-Color;
+    animation-duration: 3s; 
+    animation-timing-function:ease-in-out; 
+    animation-iteration-count: infinite; 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.9);
 
 }
 
@@ -349,6 +357,7 @@ label {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
 }
 
 /* Skills */
@@ -362,10 +371,15 @@ label {
 }
 
 .titulo-habilidades {
+
     background-color: rgba(32, 48, 94, 0.5); 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
+    animation-name: animacion-Cambio-Color;
+    animation-duration: 3s; 
+    animation-timing-function:ease-in-out; 
+    animation-iteration-count: infinite; 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.9);
 
 }
 
@@ -380,6 +394,7 @@ label {
     display: flex;
     border-radius: 10px;
     margin: auto;
+
 }
 
 .iconos-habilidades-diseno {
@@ -402,7 +417,6 @@ label {
 .text-ico-6 {
     text-shadow: 0px 0px 8px #8a24ff;
 }
-
 
 /*Footer*/
 
