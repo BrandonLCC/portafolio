@@ -241,31 +241,29 @@
         <h2 class = "titulo-formulario p-3 text-light text-center">Formulario directo</h2>
     
    <!--               Formulario                 -->
-        <p id = "mensaje-formulario" class = "subtitulo-formulario p-2 text-center text-light">Puedes escribirme directamente  por correo electronico en este formulario para mantenernos en conctacto</p>
-          <form class = " text-light m-2 mx-3 py-3" action="">
+        <p  class = "subtitulo-formulario p-2 text-center text-light" id = "validar">Puedes escribirme directamente  por correo electronico en este formulario para mantenernos en conctacto</p>
+          <form id="miFormulario" class="text-light m-2 mx-3 py-3" action="https://formsubmit.co/ecd140b5d5b1a3deb8ffe5ca7be23196" method="POST">
             <!-- Nombre usuario -->
-            
-            <div class="mb-2 px-5" id = "divNombre">
-                <label class = "my-2 col-12 p-1 text-center " sfor="NombreUsuario">Nombre</label>
-                <input id = "nombre"  type="text" class="form-control " id = "nombre">
+            <div class="mb-2 px-5" id="divNombre">
+                <label class="my-2 col-12 p-1 text-center" for="nombre">Nombre</label>
+                <input id="nombre" name="name" type="text" class="form-control">
             </div>
-              <!-- Gmail usuario -->
-            <div class="mb-2  px-5">
-                <label for="exampleFormControlInput1" class="form-label col-12 p-1  text-center">Correo electrónico</label>
-                <input id = "correo" type="email" class="form-control"  id = "correo" placeholder="nombre@gmail.com">
+            <!-- Gmail usuario -->
+            <div class="mb-2 px-5">
+                <label for="correo" class="form-label col-12 p-1 text-center">Correo electrónico</label>
+                <input id="correo" name="email" type="email" class="form-control" placeholder="nombre@gmail.com">
             </div>
-
             <!-- Text-area usuario -->
             <div class="px-5">
-                <label for="exampleFormControlTextarea1" class="form-label col-12 p-1 text-center">Mensaje</label>
-                <textarea class="form-control" id="mensaje" placeholder="Escribeme..." rows=""></textarea>
-            </div> 
-
-            <!--Para enviar los datos del formulario -->
-            <div class = "botonEnviar ">
-                <input class = "boton-diseno px-5  py-1" type="submit" value="Enviar " id = "enviar"> 
+                <label for="mensaje" class="form-label col-12 p-1 text-center">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="message" placeholder="Escríbeme..." rows="4"></textarea>
             </div>
-          </form> 
+            <!-- Para enviar los datos del formulario -->
+            <div class="botonEnviar text-center">
+                <input class="boton-diseno px-5 py-1" type="submit" value="Enviar" id="enviar">
+            </div>
+            <div id="validar"></div>
+        </form>
 
 
 
@@ -277,6 +275,7 @@
       <p class = "text-center text-light">2024 Brandon Casas. Todos los derechos reservados </p>
       
     </footer>
+
 
     <!--JS BOOSTRAP-->
     <script src="./assets/js/Script.js"></script>
