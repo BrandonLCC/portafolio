@@ -131,6 +131,16 @@ body {
     border-bottom-right-radius: 10px;
     
 }
+
+.subtitulo-intorduccion {
+   position: relative;
+    bottom: 16px;
+    background-color: rgba(32, 48, 94, 0.2); 
+    border-bottom: 1px solid rgba(32, 48, 94, 0.5);
+    text-shadow: 0px 0px 5px #747dff;
+
+}
+
 /* SECCION PROYECTO */
 .logo-proyecto {
     position:absolute;
